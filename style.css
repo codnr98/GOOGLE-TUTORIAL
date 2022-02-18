@@ -18,3 +18,35 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+/* Header */
+header {
+    border: 1px solid red;
+    height: 60px;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* justify는 가로축 범위 flex-end는 요소들을 컨테이너 우측에 정렬 */
+    align-items: center; /*align-items은 세로축 범위*/
+    font-size: 14px;
+}
+
+.navbar ul li {
+    margin-left: 15px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.link:hover {  /* :hover는 마우스를 갖다 대면 상호작용을 할 수 있게 해준다 */
+    text-decoration: underline;
+}
