@@ -50,3 +50,17 @@ header {
 .link:hover {  /* :hover는 마우스를 갖다 대면 상호작용을 할 수 있게 해준다 */
     text-decoration: underline;
 }
+
+.circle-shadow {
+    border: 1px solid blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-shadow:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+}
