@@ -131,6 +131,10 @@ header {
      border: none;
  }
 
+ .search-bar input:focus {
+     outline: none;
+ }
+
  .search-btns {
      margin-top: 20px;
  }
