@@ -222,3 +222,23 @@ header {
 .lower-right-footer li {
     margin-left: 15px;
 }
+
+/* Mobaile and Tablet */
+@media only screen and (max-width: 650px) {
+    /* Search Bar */
+    .search-bar{
+        width: 90%;
+    }
+    /* Footer */
+    footer {
+        height: 150px;
+    }
+    .upper-footer {
+        height: 50px;
+    }
+
+    .lower-footer {
+        height: 100px;
+        flex-direction: column;
+    }
+}
